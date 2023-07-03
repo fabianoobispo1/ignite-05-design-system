@@ -23,6 +23,8 @@ const config = {
     if(configType == 'PRODUCTION') {
       config.base = '/ignite-05-design-system/'
     }
+
+    return config
   }
 };
 export default config;
